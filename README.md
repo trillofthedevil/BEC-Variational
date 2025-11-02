@@ -1,8 +1,8 @@
-\# Quantum Depletion in the BEC with LHY Correction – A Variational Approach and Numerical Analysis
+# Quantum Depletion in the BEC with LHY Correction – A Variational Approach and Numerical Analysis
 
 
 
-This repository contains two implementations that compute and visualize the energy and density profiles of an isotropically trapped Bose–Einstein condensate (BEC) including \*\*quantum depletion\*\* through the \*\*Lee–Huang–Yang (LHY)\*\* correction with the variational approach.
+This repository contains two implementations that compute and visualize the energy and density profiles of an isotropically trapped Bose–Einstein condensate (BEC) including **quantum depletion** through the **Lee–Huang–Yang (LHY)** correction with the variational approach.
 
 
 
@@ -14,13 +14,13 @@ Both codes explore the effects of depletion on physical quantities such as conde
 
 
 
-\## Contents
+## Contents
 
 
 
-\- `julia/bec\_gp\_lda\_variational.jl` – Variational approach in \*\*Julia\*\* using `Optimization.jl` and `Integrals.jl`.
+- `julia/bec\_gp\_lda\_variational.jl` – Variational approach in **Julia** using `Optimization.jl` and `Integrals.jl`.
 
-\- `python/Energy\_and\_Density\_with\_depletion.ipynb` – Numerical computation and plotting in \*\*Python\*\* using SciPy and Matplotlib.
+- `python/Energy\_and\_Density\_with\_depletion.ipynb` – Numerical computation and plotting in **Python** using SciPy and Matplotlib.
 
 
 
@@ -28,11 +28,11 @@ Both codes explore the effects of depletion on physical quantities such as conde
 
 
 
-\## Requirements
+## Requirements
 
 
 
-\### Julia
+### Julia
 
 ```bash
 
@@ -41,6 +41,7 @@ using Pkg
 Pkg.add(\["Plots", "Roots", "Polynomials", "LaTeXStrings", "Integrals", "Optimization", "OptimizationOptimJL"])
 
 julia julia/bec\_gp\_lda\_variational.jl
+
 
 
 
